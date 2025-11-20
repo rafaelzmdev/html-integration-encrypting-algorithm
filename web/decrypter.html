@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <style src="styles.css"></style>
+</head>
+<body>
+    <div class="title">
+        <h1>Decrypt your text</h1>
+    </div>
+    <div class="wrapper">
+        <div class="inputs">
+             <label for="unprocessed_text_list">Insert your text to decrypt here:</label>
+             <textarea id="unprocessed_text_list" name="unprocessed_text_list"></textarea>
+             <p>Insert your coefficients (keys) here:</p>
+             <input type="number" id="coeffA" placeholder="Key 1">
+             <input type="number" id="coeffB" placeholder="Key 2">
+             <input type="number" id="coeffC" placeholder="Key 3">
+             <p>Press this button to decrypt your text.</p>
+             <button id="decryptBtn">Decrypt</button>
+        </div>
+        <div class="output">
+            <p>Here's your decrypted text:</p>
+            <p id="finaltext"></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <style src="styles.css"></style>
+</head>
+<body>
+    <div class="title">
+        <h1>Encrypt your text</h1>
+    </div>
+    <div class="wrapper">
+        <div class="inputs">
+             <label for="rawtext">Insert your text to encrypt here:</label>
+             <textarea id="rawtext" name="rawtext"></textarea>
+             <p>Insert your coefficients (keys) here: (don't lose them!)</p>
+             <input type="number" id="coeffA" placeholder="Key 1">
+             <input type="number" id="coeffB" placeholder="Key 2">
+             <input type="number" id="coeffC" placeholder="Key 3">
+             <p>Press this button to encrypt your text.</p>
+             <button id="encryptBtn">Encrypt</button>
+        </div>
+        <div class="output">
+            <p>Here's your encrypted text:</p>
+            <p id="encryptedascii"></p>
+        </div>
+    </div>
+</body>
+</html>
