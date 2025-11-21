@@ -1,3 +1,13 @@
+function redirectencrpt(){
+    window.location.href = "encrypter.html"
+}
+function redirectdecrpt(){
+    window.location.href = "decrypter.html"
+}
+
+
+
+
 if (document.body.id === "encrypter-page") {
     console.log("Running encrypter code");
     const encryptBtn = document.getElementById('encryptBtn');
@@ -23,6 +33,7 @@ if (document.body.id === "decrypter-page") {
     console.log(finaltext)
 })
 }
+
 
 
 

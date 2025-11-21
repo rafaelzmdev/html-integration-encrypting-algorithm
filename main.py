@@ -19,4 +19,5 @@ if __name__ == "__main__":
         "web/index.html",
         js_api=api
     )
-    webview.start(debug=True)
+webview.start(debug=True)
+
