@@ -1,1 +1,4 @@
-readme
+uses a second degree equation to generate a cipher that can be reverse-engineered with ease when disposed of the a, b and c coefficients.
+essentially assigns an ASCII cipher for a text, then applies a second degree equation with the coefficients being chosen by the user (keys), then outputs the encrypted text. to decrypt, the user needs to provide the keys and the encrypted text. 
+this is VERY easy to reverse-engineer without any other info than the encrypted text itself, but it's still fun to use! ;)
+and you also need to have some algebra knowledge to reverse-engineer the code without the coefficients so.. this can have some use
