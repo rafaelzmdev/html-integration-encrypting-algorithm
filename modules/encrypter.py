@@ -1,4 +1,7 @@
 def encrypt_text(rawtext, a, b, c):
+    a = float(a)
+    b = float(b)
+    c = float(c)
     asciivalue = []
     for char in rawtext:
         lettervalue = ord(char)
