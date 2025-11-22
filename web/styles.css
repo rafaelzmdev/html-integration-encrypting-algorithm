@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Stack+Sans+Headline:wght@200..700&display=swap');
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 560;
+  font-style: normal;
+}
+html, body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    min-width: 100vw;
+    background-color:rgb(212, 27, 27);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.titlelock{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titlelock h1{
+    font-size: 50px;
+    font-weight: 690;
+    margin: 0;
+    padding: 30px;
+    padding-right: 10px;
+}
+.titlelock i{
+    font-size: 40px;
+}
+.wrapper { 
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+}
+.wrapper .inputs {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    padding-left: 2.25vw;
+}
+.wrapper .inputs label{
+    font-size: 2.35vw;
+    font-weight: 550;
+    display: flex;
+    align-self: center;
+}
+.wrapper .inputs textarea{
+    resize: none;
+    margin-top: 0.75rem;
+    min-height: 25vw;
+    border: solid;
+    border-color: aqua;
+    border-width:10px;
+    border-radius: 40px;
+    padding: 12px;
+    width: 30vw;
+    font-size: 20px;
+    font-weight: 450;
+    background-color: rgba(65, 58, 58, 0.493);
+    color: white;
+}
+.keys {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.keys .userinputs{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px; 
+}
+.keys .userinputs .key1 {
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 18px;
+}
+.keys .userinputs .key2 {
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 18px;
+}
+.keys .userinputs .key3 {
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: aqua;
+    border-radius: 10px;
+    padding: 7px;
+    font-size: 18px;
+}

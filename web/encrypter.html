@@ -5,22 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
+    <link href='https://cdn.boxicons.com/3.0.4/fonts/basic/boxicons.min.css' rel='stylesheet'>
 </head>
 <body id="encrypter-page">
-    <div class="title">
-        <h1>Encrypt your text</h1>
-    </div>
-    <div class="wrapper">
-        <div class="inputs">
-             <label for="rawtext">Insert your text to encrypt here:</label>
-             <textarea id="rawtext" name="rawtext"></textarea>
-             <p>Insert your coefficients (keys) here: (don't lose them!)</p>
-             <input type="number" id="coeffA" placeholder="Key 1">
-             <input type="number" id="coeffB" placeholder="Key 2">
-             <input type="number" id="coeffC" placeholder="Key 3">
-             <p>Press this button to encrypt your text.</p>
-             <button id="encryptBtn">Encrypt</button>
-        </div>
+            <div class="titlelock">
+                <h1>Encrypt your text</h1>
+                <i class='bxr bx-lock'></i> 
+            </div>
+                 <div class="wrapper">
+                    <div class="inputs">
+                        <label for="rawtext"; class="label">Insert your text here:</label>
+                        <textarea id="rawtext" name="rawtext"; class="textarea"></textarea>
+                    </div>
+                 </div>
+                 <div class="keys">
+                    <p>Insert your coefficients (keys) here: (don't lose them!)</p>
+                        <div class="userinputs">
+                            <input type="number" id="coeffA" placeholder="Key 1" class="key1">
+                            <input type="number" id="coeffB" placeholder="Key 2" class="key2">
+                            <input type="number" id="coeffC" placeholder="Key 3" class="key3">
+                        </div>
+                 </div>
+            <div class="encryptbtn">
+                <p>Press this button to encrypt your text.</p>
+                <button id="encryptBtn">Encrypt</button>
+            </div>
         <div class="output">
             <p>Here's your encrypted text:</p>
             <p id="encryptedascii"></p>
